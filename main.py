@@ -14,7 +14,7 @@ def query():
     if not os.path.exists(folder):
         os.mkdir(folder)
 
-    p = os.path.join(folder, bundleid) + ".txt"
+    p = os.path.join(folder, bundleid)
     
     version = 1
     if os.path.exists(p):
